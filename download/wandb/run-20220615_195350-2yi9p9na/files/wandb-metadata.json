@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-06-15T22:53:51.526645",
+    "startedAt": "2022-06-15T22:53:50.699434",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/home/fabiof/genre_classification/download/download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/fabio-william-franco/genre_classification.git",
+        "commit": "9e2be5d793d4fbd809a1a2ecfa4242ed2501321c"
+    },
+    "email": "fabio.afranco@hotmail.com",
+    "root": "/home/fabiof/genre_classification",
+    "host": "DBC-001391",
+    "username": "fabiof",
+    "executable": "/home/fabiof/miniconda3/envs/mlflow-1e1f29ee665dd447b37be8e9cbe4c581b2b93904/bin/python"
+}

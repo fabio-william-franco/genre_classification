@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-06-15T22:54:22.690837",
+    "startedAt": "2022-06-15T22:54:21.778306",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/home/fabiof/miniconda3/envs/mlflow-3177c9e08c2b3edc9766a4b059e300f55892b9d0/bin/pytest",
+    "git": {
+        "remote": "https://github.com/fabio-william-franco/genre_classification.git",
+        "commit": "9e2be5d793d4fbd809a1a2ecfa4242ed2501321c"
+    },
+    "email": "fabio.afranco@hotmail.com",
+    "root": "/home/fabiof/genre_classification",
+    "host": "DBC-001391",
+    "username": "fabiof",
+    "executable": "/home/fabiof/miniconda3/envs/mlflow-3177c9e08c2b3edc9766a4b059e300f55892b9d0/bin/python"
+}

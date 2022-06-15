@@ -1,0 +1,15 @@
+artifact_uri: file:///home/fabiof/genre_classification/mlruns/0/953490b49f8343eabb138e0f59b99c36/artifacts
+end_time: 1655333746696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 953490b49f8343eabb138e0f59b99c36
+run_uuid: 953490b49f8343eabb138e0f59b99c36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1655333626882
+status: 3
+tags: []
+user_id: fabiof
